@@ -1,6 +1,6 @@
-#. PyTips
+# PyTips
 
-##. The Point
+## The Point
 
 This is a simple example application for demonstrating some modern practices
 for managing your Python project: using [`pip`][pip_home] to manage your
@@ -17,7 +17,7 @@ on [bitbucket][bitbucket_home], hosting your docs on
 [sphinx_home]: http://sphinx.pocoo.org/
 [shiningpanda_home]: https://www.shiningpanda.com/
 
-##. The Implementation
+## The Implementation
 
 The actual functionality of the app is straight-forward: it's a web application
 that displays a random Python tip every time you visit the page (properly
