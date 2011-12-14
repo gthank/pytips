@@ -12,17 +12,19 @@ import requests
 
 
 app = Flask(__name__)
-QUERY = "#python+tip"
+SHARED_QUERY_PARAMS = {
+    "q": "#python+tip",
+    "window": "a",
+    "allow_lang": "en",
+    "type": "tweet",
+}
 PER_PAGE = 100
 SEARCH_COUNT_URL = 'http://otter.topsy.com/searchcount.json'
 SEARCH_URL = 'http://otter.topsy.com/search.json'
 
 
-def _get_page_and_index_for_random_tip():
-    initial_count_params = {
-        "q": QUERY
-    }
-    r = requests.get(SEARCH_COUNT_URL, params=initial_count_params)
+def _get_offset_and_index_for_random_tip():
+    r = requests.get(SEARCH_COUNT_URL, params=SHARED_QUERY_PARAMS.copy())
     response = json.loads(r.content)['response']
     total_result_count = response['a']
     random_index = random.randint(0, total_result_count - 1)
@@ -33,18 +35,40 @@ def _get_page_and_index_for_random_tip():
     return offset, index_on_page
 
 
-@app.route('/')
-def index():
-    offset, index = _get_page_and_index_for_random_tip()
-    search_params = {
-        "q": QUERY,
-        "window": "a",
+def _format_tweet_into_tip(tweet_info):
+    # TODO Figure out the *RIGHT* way to handle the Title/Content thing.
+    title = tweet_info["title"]
+    content = tweet_info["content"]
+    if title == content:
+        my_tip = title
+    else:
+        my_tip = '<span class="tip_title">' + title + "</span> " + content
+
+    return '<q cite="{url}">{tip}</q>&mdash;<a href="{url}" title="The source of this tip">{author}</a>'.format(
+        url = tweet_info["trackback_permalink"],
+        tip = my_tip,
+        author = tweet_info["trackback_author_nick"])
+
+
+def _get_tip():
+    offset, index = _get_offset_and_index_for_random_tip()
+    search_params = SHARED_QUERY_PARAMS.copy()
+    search_params.update({
         "offset": offset,
         "perpage": PER_PAGE,
-    }
+    })
     r = requests.get(SEARCH_URL, params=search_params)
-    response = json.loads(r.content)['response']
-    return response['list'][index]['title']
+    search_results = json.loads(r.content)['response']['list']
+    # Although this shouldn't be happening, it addresses a real issue I was
+    # experiencing.
+    if index >= len(search_results):
+        return _get_tip()
+    return _format_tweet_into_tip(search_results[index])
+
+
+@app.route('/')
+def index():
+    return _get_tip()
 
 
 if __name__ == '__main__':
