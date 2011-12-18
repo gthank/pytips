@@ -7,7 +7,7 @@ from __future__ import absolute_import
 import json
 import random
 
-from flask import Flask
+from flask import Flask, render_template
 import requests
 
 
@@ -35,21 +35,6 @@ def _get_offset_and_index_for_random_tip():
     return offset, index_on_page
 
 
-def _format_tweet_into_tip(tweet_info):
-    # TODO Figure out the *RIGHT* way to handle the Title/Content thing.
-    title = tweet_info["title"]
-    content = tweet_info["content"]
-    if title == content:
-        my_tip = title
-    else:
-        my_tip = '<span class="tip_title">' + title + "</span> " + content
-
-    return '<q cite="{url}">{tip}</q>&mdash;<a href="{url}" title="The source of this tip">{author}</a>'.format(
-        url = tweet_info["trackback_permalink"],
-        tip = my_tip,
-        author = tweet_info["trackback_author_nick"])
-
-
 def _get_tip():
     offset, index = _get_offset_and_index_for_random_tip()
     search_params = SHARED_QUERY_PARAMS.copy()
@@ -63,7 +48,12 @@ def _get_tip():
     # experiencing.
     if index >= len(search_results):
         return _get_tip()
-    return _format_tweet_into_tip(search_results[index])
+    full_result = search_results[index]
+    return render_template('index.html',
+                           url=full_result["trackback_permalink"],
+                           title=full_result.get("title", None),
+                           content=full_result.get("content", None),
+                           author=full_result["trackback_author_nick"])
 
 
 @app.route('/')
