@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="span10">
                         <!-- TODO Figure out the *RIGHT* way to handle the Title/Content thing. -->
-                        <q cite="{{ url }}">{% if title %}<span class="tipTitle">{{ title }} </span>{% endif %}{{ content }}</q>—<a href="{{ url }}" title="The source of this tip">{{ author }}</a>
+                        <q cite="{{ url }}">{% if title and not title == content %}<span class="tipTitle">{{ title }} </span>{% endif %}{{ content }}</q>—<a href="{{ url }}" title="The source of this tip">{{ author }}</a>
                     </div>
                     <!-- <div class="span4"> -->
                     <!--     <h3>Secondary content</h3> -->
