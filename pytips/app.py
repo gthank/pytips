@@ -49,10 +49,27 @@ def _get_tip():
     if index >= len(search_results):
         return _get_tip()
     full_result = search_results[index]
+    title = full_result.get("title", None)
+    content = full_result.get("content", None)
+    if content or title:
+        # OtterAPI gives us escaped strings, but Jinja will handle any needed
+        # escaping, so we'll have Werkzeug unescape them for us.
+        from werkzeug.utils import unescape
+        # Werkzeug's unescape requires us to give it a buffer or str object,
+        # not a Unicode, so we need to encode our unicode to bytes; we know it's
+        # UTF-8 because that's the only valid encoding for JSON.
+        import codecs
+        encode = codecs.getencoder('UTF-8')
+    if content:
+        encoded_content, length = encode(content)
+        content = unescape(encoded_content)
+    if title:
+        encoded_title, length = encode(title)
+        title = unescape(encoded_title)
     return render_template('index.html',
                            url=full_result["trackback_permalink"],
-                           title=full_result.get("title", None),
-                           content=full_result.get("content", None),
+                           title=title,
+                           content=content,
                            author=full_result["trackback_author_nick"])
 
 
