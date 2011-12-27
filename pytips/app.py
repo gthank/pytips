@@ -43,7 +43,9 @@ def _get_tip():
         "perpage": PER_PAGE,
     })
     r = requests.get(SEARCH_URL, params=search_params)
-    search_results = json.loads(r.content)['response']['list']
+    response_json = json.loads(r.content)
+    app.logger.debug("Here are our search results:\n%s", response_json)
+    search_results = response_json['response']['list']
     # Although this shouldn't be happening, it addresses a real issue I was
     # experiencing.
     if index >= len(search_results):
@@ -56,7 +58,7 @@ def _get_tip():
         # escaping, so we'll have Werkzeug unescape them for us.
         from werkzeug.utils import unescape
         # Werkzeug's unescape requires us to give it a buffer or str object,
-        # not a Unicode, so we need to encode our unicode to bytes; we know it's
+        # not a Unicode, so we need to encode it to bytes; we know it's
         # UTF-8 because that's the only valid encoding for JSON.
         import codecs
         encode = codecs.getencoder('UTF-8')
