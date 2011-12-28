@@ -3,6 +3,7 @@
 from __future__ import print_function
 from __future__ import unicode_literals
 from __future__ import absolute_import
+from __future__ import division
 
 import json
 import random
@@ -28,8 +29,7 @@ def _get_offset_and_index_for_random_tip():
     response = json.loads(r.content)['response']
     total_result_count = response['a']
     random_index = random.randint(0, total_result_count - 1)
-    # Relies on int division truncating; this might be a Python 3 problem.
-    page_for_random_index = random_index / PER_PAGE
+    page_for_random_index = random_index // PER_PAGE
     offset = PER_PAGE * page_for_random_index
     index_on_page = random_index % PER_PAGE
     return offset, index_on_page
