@@ -20,14 +20,16 @@ SHARED_QUERY_PARAMS = {
     "type": "tweet",
 }
 PER_PAGE = 100
-SEARCH_COUNT_URL = 'http://otter.topsy.com/searchcount.json'
 SEARCH_URL = 'http://otter.topsy.com/search.json'
 
 
 def _get_offset_and_index_for_random_tip():
-    r = requests.get(SEARCH_COUNT_URL, params=SHARED_QUERY_PARAMS.copy())
-    response = json.loads(r.content)['response']
-    total_result_count = response['a']
+    search_params = SHARED_QUERY_PARAMS.copy()
+    r = requests.get(SEARCH_URL, params=search_params)
+    response_json = json.loads(r.content)
+    app.logger.debug("The results we use for counting purposes:\n%s",
+                     response_json)
+    total_result_count = response_json['response']['total']
     random_index = random.randint(0, total_result_count - 1)
     page_for_random_index = random_index // PER_PAGE
     offset = PER_PAGE * page_for_random_index
@@ -46,11 +48,8 @@ def _get_tip():
     response_json = json.loads(r.content)
     app.logger.debug("Here are our search results:\n%s", response_json)
     search_results = response_json['response']['list']
-    # Although this shouldn't be happening, it addresses a real issue I was
-    # experiencing.
-    if index >= len(search_results):
-        return _get_tip()
     full_result = search_results[index]
+    app.logger.debug("Here is the tweet we will use as the tip:\n%s", full_result)
     title = full_result.get("title", None)
     content = full_result.get("content", None)
     if content or title:
