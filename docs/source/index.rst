@@ -3,20 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PyTips's documentation!
-==================================
+Welcome to PyTips
+=================
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
+Welcome to PyTips' documentation. If you're looking to run your own copy of
+PyTips, I recommend starting with :ref:`installation`. If you just want to use
+the site, just visit http://pytips.ep.io/.
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. include:: contents.rst.inc
