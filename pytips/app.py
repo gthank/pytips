@@ -49,7 +49,7 @@ def _get_tip():
     app.logger.debug("Here are our search results:\n%s", response_json)
     search_results = response_json['response']['list']
     full_result = search_results[index]
-    app.logger.debug("Here is the tweet we will use as the tip:\n%s", full_result)
+    app.logger.debug("Here is the tweet to use as the tip:\n%s", full_result)
     title = full_result.get("title", None)
     content = full_result.get("content", None)
     if content or title:
