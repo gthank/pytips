@@ -6,8 +6,10 @@ This is a simple example application for demonstrating some modern practices
 for managing your Python project: using [`pip`][pip_home] to manage your
 dependencies, writing your docs in [Sphinx][sphinx_home], hosting your code
 on [bitbucket][bitbucket_home], hosting your docs on
-[Read the Docs][rtd_home], and running the actual service on
-[ep.io][epio_home]. As a stretch goal, it will demonstrate how to use
+[Read the Docs][rtd_home], running the actual service on
+[ep.io][epio_home], and publishing it on [PyPI][pypi] (see
+[The Hitchhiker's Guide to Packaging][packaging_guide] for details). As a
+stretch goal, it will demonstrate how to use
 [Shining Panda][shiningpanda_home] for continuous integration.
 
 [pip_home]: http://www.pip-installer.org/en/latest/index.html
@@ -16,6 +18,8 @@ on [bitbucket][bitbucket_home], hosting your docs on
 [epio_home]: http://ep.io/
 [sphinx_home]: http://sphinx.pocoo.org/
 [shiningpanda_home]: https://www.shiningpanda.com/
+[pypi]: http://pypi.python.org/pypi
+[packaging_guide]: http://guide.python-distribute.org/quickstart.html
 
 ## The Implementation
 
@@ -27,4 +31,3 @@ Obviously, this could be improved. With any luck, I'll actually implement some
 of those possible improvements.
 
 [flask_home]: http://flask.pocoo.org/
-
