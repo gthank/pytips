@@ -5,14 +5,17 @@ from __future__ import unicode_literals
 from __future__ import absolute_import
 from __future__ import division
 
+import codecs
 import json
 import random
 
 from flask import Flask, render_template
 import requests
+from werkzeug.utils import unescape
 
 
 app = Flask(__name__)
+utf8_encode = codecs.getencoder('UTF-8')
 SHARED_QUERY_PARAMS = {
     "q": "#python+tip",
     "window": "a",
@@ -52,20 +55,16 @@ def _get_tip():
     app.logger.debug("Here is the tweet to use as the tip:\n%s", full_result)
     title = full_result.get("title", None)
     content = full_result.get("content", None)
-    if content or title:
-        # OtterAPI gives us escaped strings, but Jinja will handle any needed
-        # escaping, so we'll have Werkzeug unescape them for us.
-        from werkzeug.utils import unescape
-        # Werkzeug's unescape requires us to give it a buffer or str object,
-        # not a Unicode, so we need to encode it to bytes; we know it's
-        # UTF-8 because that's the only valid encoding for JSON.
-        import codecs
-        encode = codecs.getencoder('UTF-8')
+    # OtterAPI gives us escaped strings, but Jinja will handle any needed
+    # escaping, so we'll have Werkzeug unescape them for us.
+    # Werkzeug's unescape requires us to give it a buffer or str object,
+    # not a Unicode, so we need to encode it to bytes; we know it's
+    # UTF-8 because that's the only valid encoding for JSON.
     if content:
-        encoded_content, length = encode(content)
+        encoded_content, length = utf8_encode(content)
         content = unescape(encoded_content)
     if title:
-        encoded_title, length = encode(title)
+        encoded_title, length = utf8_encode(title)
         title = unescape(encoded_title)
     return render_template('index.html',
                            url=full_result["trackback_permalink"],
