@@ -1,3 +1,4 @@
 .epio-app
 docs/build
 dist
+MANIFEST
