@@ -8,7 +8,7 @@ Welcome to PyTips
 
 Welcome to PyTips' documentation. If you're looking to run your own copy of
 PyTips, I recommend starting with :ref:`installation`. If you just want to use
-the site, just visit http://pytips.ep.io/.
+the site, http://pytips.ep.io/.
 
 
 .. include:: contents.rst.inc
