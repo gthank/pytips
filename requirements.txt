@@ -1,2 +1,4 @@
 Flask==0.8
 requests==0.8.3
+gunicorn==0.14.3
+
