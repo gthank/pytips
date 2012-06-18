@@ -3,3 +3,5 @@ syntax: glob
 docs/build
 dist
 MANIFEST
+.git
+.gitignore
