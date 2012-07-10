@@ -7,17 +7,17 @@ for managing your Python project: using [`pip`][pip_home] to manage your
 dependencies, writing your docs in [Sphinx][sphinx_home], hosting your code
 on [bitbucket][bitbucket_home], hosting your docs on
 [Read the Docs][rtd_home], running the actual service on
-[ep.io][epio_home], and publishing it on [PyPI][pypi] (see
+[Heroku][heroku_home], and publishing it on [PyPI][pypi] (see
 [The Hitchhiker's Guide to Packaging][packaging_guide] for details). As a
 stretch goal, it will demonstrate how to use
-[Shining Panda][shiningpanda_home] for continuous integration.
+[Travis CI][travisci_home] for continuous integration.
 
 [pip_home]: http://www.pip-installer.org/en/latest/index.html
 [bitbucket_home]: https://bitbucket.org/
 [rtd_home]: http://readthedocs.org/
-[epio_home]: http://ep.io/
+[heroku_home]: http://www.heroku.com/
 [sphinx_home]: http://sphinx.pocoo.org/
-[shiningpanda_home]: https://www.shiningpanda.com/
+[travisci_home]: http://travis-ci.org/
 [pypi]: http://pypi.python.org/pypi
 [packaging_guide]: http://guide.python-distribute.org/quickstart.html
 
