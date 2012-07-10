@@ -12,11 +12,14 @@ from flask import Flask
 from flask.ext.testing import TestCase
 
 
+from pytips import app as pytips
+
+
 class TestViews(TestCase):
     """Test *ALL* the Views!"""
     def create_app(self):
         """Creates an instance of PyTips for testing."""
-        app = Flask(__name__)
+        app = pytips.create_app()
         app.config['TESTING'] = True
         return app
 
