@@ -6,3 +6,4 @@ MANIFEST
 .git
 .gitignore
 .coverage
+.tox
