@@ -31,3 +31,8 @@ Obviously, this could be improved. With any luck, I'll actually implement some
 of those possible improvements.
 
 [flask_home]: http://flask.pocoo.org/
+
+## Build Status
+
+[![Build Status](https://secure.travis-ci.org/gthank/pytips.png?branch=master)](http://travis-ci.org/gthank/pytips)
+
