@@ -1,8 +1,8 @@
 # Basic dev requirements.
 Flask==0.9
 Flask-Testing==0.4
-requests==0.8.3
-gunicorn==0.14.3
+requests==0.13.5
+gunicorn==0.14.6
 # Testing requirements.
 nose==1.1.2
 coverage==3.5.2
