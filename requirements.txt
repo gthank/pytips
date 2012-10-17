@@ -6,3 +6,5 @@ gunicorn==0.14.6
 # Testing requirements.
 nose==1.1.2
 coverage==3.5.2
+# Easy config for running on heroku.
+flask-heroku==0.1.3
