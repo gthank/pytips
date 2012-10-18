@@ -13,6 +13,7 @@ import random
 
 from flask import Flask, render_template
 from flask_heroku import Heroku
+from flask.ext.sqlalchemy import SQLAlchemy
 import requests
 from werkzeug.utils import unescape
 
@@ -20,6 +21,7 @@ from werkzeug.utils import unescape
 app = Flask(__name__)
 app.config.from_object('pytips.default_settings')
 heroku = Heroku(app)
+db = SQLAlchemy(app)
 
 
 utf8_encode = codecs.getencoder('UTF-8')
