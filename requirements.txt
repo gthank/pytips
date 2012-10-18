@@ -1,5 +1,6 @@
 # Basic dev requirements.
 Flask==0.9
+Flask-SQLAlchemy==0.16
 Flask-Testing==0.4
 requests==0.13.5
 gunicorn==0.14.6
