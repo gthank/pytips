@@ -16,3 +16,6 @@ class Tip(db.Model):
     author_url = db.Column(db.String(1024), nullable=False)
     url = db.Column(db.String(1024), unique=True, nullable=False)
     rendered_html = db.Column(db.String(1024), unique=True, nullable=False)
+
+    def __repr__(self):
+        return '<Tip %r>' % self.url
