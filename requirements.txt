@@ -1,10 +1,11 @@
 # Basic dev requirements.
 Flask==0.9
 Flask-SQLAlchemy==0.16
-Flask-Testing==0.4
-requests==0.13.5
+alembic==0.4.0
 gunicorn==0.14.6
+requests==0.13.5
 # Testing requirements.
+Flask-Testing==0.4
 nose==1.1.2
 coverage==3.5.2
 # Easy config for running on heroku.
