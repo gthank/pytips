@@ -7,3 +7,4 @@ MANIFEST
 .gitignore
 .coverage
 .tox
+alembic.ini
