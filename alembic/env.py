@@ -11,16 +11,26 @@ config = context.config
 # This line sets up loggers basically.
 fileConfig(config.config_file_name)
 
+
 # add your model's MetaData object here
 # for 'autogenerate' support
-from pytips import db, models
+from pytips import app
+cur_db_uri = config.get_section_option('alembic', 'sqlalchemy.url')
+my_db_uri = app.config.get('SQLALCHEMY_DATABASE_URI', cur_db_uri)
+config.set_section_option('alembic', 'sqlalchemy.url', my_db_uri)
+# This next line will cause my model definitions to fire, which is what sets up
+# the metadata we're about to hand to Alembic.
+from pytips import models
+# OK, the previous line initialized the metadata in the db.Model object, so now
+# we import db so we can get it and give it to Alembic.
+from pytips import db
 target_metadata = db.Model.metadata
-print target_metadata
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
+
 
 def run_migrations_offline():
     """Run migrations in 'offline' mode.
