@@ -19,6 +19,11 @@ db = SQLAlchemy(app)
 
 
 # I'm about to import a module that I won't use explicitly; when it loads, the
+# model definitions created, so you *must* leave the import in place. Also, it
+# relies on `db` being already configured, so don't import it before everything
+# is all set up.
+from pytips import models
+# I'm about to import a module that I won't use explicitly; when it loads, the
 # routes for the app will be defined, so you *must* leave the import in place.
 # Also, it relies on `app` being already configured, so don't import it before
 # everything is all set up.
