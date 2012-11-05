@@ -17,4 +17,5 @@ from pytips.models import Tip
 @app.route('/')
 def index():
     random_tip = Tip.query.order_by(func.random()).first()
-    return render_template('index.html', tip_html=Markup(random_tip.rendered_html))
+    return render_template('index.html',
+                           tip_html=Markup(random_tip.rendered_html))
