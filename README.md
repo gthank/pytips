@@ -26,13 +26,9 @@ stretch goal, it will demonstrate how to use
 The actual functionality of the app is straight-forward: it's a web application
 that displays a random Python tip every time you visit the page (properly
 attributed, of course). To power the site, I'll be using [Flask][flask_home].
-To provide the initial tips, I'll be scraping Twitter on every request.
-Obviously, this could be improved. With any luck, I'll actually implement some
-of those possible improvements.
 
 [flask_home]: http://flask.pocoo.org/
 
 ## Build Status
 
 [![Build Status](https://secure.travis-ci.org/gthank/pytips.png?branch=master)](http://travis-ci.org/gthank/pytips)
-
