@@ -7,3 +7,5 @@ MANIFEST
 .gitignore
 .coverage
 .tox
+alembic.ini
+PyTips.egg-info
