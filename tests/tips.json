@@ -1,8 +1,0 @@
-[
-    {
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Exceptions are temporarily hidden before a finally clause is run. Capture any needed exception info in a preceding except-clause</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/260765941367992320\" data-datetime=\"2012-10-23T15:33:39+00:00\">October 23, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/260765941367992320"
-    }
-]

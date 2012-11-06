@@ -25,7 +25,7 @@ class TestViews(TestCase):
     """Test *ALL* the Views!"""
     def setUp(self):
         # Load some sample data.
-        with open(path.join(path.dirname(__file__), "tips.json")) as fixtures:
+        with open(path.join(path.dirname(__file__), "bootstrap.json")) as fixtures:
             fixtures_json = json.loads(fixtures.read())
             fixtures_models = (Tip(**tip) for tip in fixtures_json)
             map(pytips.db.session.add, fixtures_models)
