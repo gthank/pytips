@@ -7,6 +7,9 @@ from __future__ import absolute_import
 from __future__ import division
 
 
+import os
+
+
 from flask import Flask
 from flask_heroku import Heroku
 from flask.ext.sqlalchemy import SQLAlchemy
@@ -15,6 +18,11 @@ from flask.ext.sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config.from_object('pytips.default_settings')
 heroku = Heroku(app)
+# Flask-Heroku is looking at an env var that I don't have, so overwrite
+# it with one that I found by dumping os.environ in a log statement.
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
+    'HEROKU_POSTGRESQL_CRIMSON_URL',
+    app.config['SQLALCHEMY_DATABASE_URI'])
 db = SQLAlchemy(app)
 
 
