@@ -2,6 +2,7 @@ from __future__ import with_statement
 from alembic import context
 from sqlalchemy import engine_from_config, pool
 import logging
+import os
 from logging.config import fileConfig
 
 # this is the Alembic Config object, which provides
@@ -17,7 +18,8 @@ fileConfig(config.config_file_name)
 # for 'autogenerate' support
 from pytips import app
 cur_db_uri = config.get_section_option('alembic', 'sqlalchemy.url')
-logging.error(app.config)
+logging.error("env: %s", os.environ)
+logging.error("app.config: %s", app.config)
 my_db_uri = app.config.get('SQLALCHEMY_DATABASE_URI', cur_db_uri)
 config.set_section_option('alembic', 'sqlalchemy.url', my_db_uri)
 # This next line will cause my model definitions to fire, which is what sets up
