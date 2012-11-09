@@ -8,3 +8,4 @@ MANIFEST
 .coverage
 .tox
 PyTips.egg-info
+.env

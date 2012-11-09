@@ -13,8 +13,9 @@ from flask.ext.sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
-app.config.from_object('pytips.default_settings')
 heroku = Heroku(app)
+if not app.config['SQLALCHEMY_DATABASE_URI']:
+    app.config.from_object('pytips.default_settings')
 db = SQLAlchemy(app)
 
 
@@ -23,6 +24,8 @@ db = SQLAlchemy(app)
 # relies on `db` being already configured, so don't import it before everything
 # is all set up.
 from pytips import models
+if app.config['SQLALCHEMY_DATABASE_URI'] == 'sqlite://':
+    db.create_all()
 # I'm about to import a module that I won't use explicitly; when it loads, the
 # routes for the app will be defined, so you *must* leave the import in place.
 # Also, it relies on `app` being already configured, so don't import it before

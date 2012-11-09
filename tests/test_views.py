@@ -17,8 +17,6 @@ from flask.ext.testing import TestCase
 
 import pytips
 from pytips.models import Tip
-# Create a new DB.
-pytips.db.create_all()
 
 
 class TestViews(TestCase):
