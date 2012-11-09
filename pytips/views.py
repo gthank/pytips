@@ -18,5 +18,4 @@ from pytips.models import Tip
 def index():
     random_tip = Tip.query.order_by(func.random()).first()
     tip_html = random_tip.rendered_html if random_tip else "Hello, world!"
-    return render_template('index.html',
-                           tip_html=Markup(tip_html))
+    return render_template('index.html', tip_html=Markup(tip_html))
