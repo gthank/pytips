@@ -14,25 +14,18 @@
         </style>
     </head>
     <body>
-        <!-- Shamelessly reusing a Twitter Bootstrap example -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36226910-1']);
+            _gaq.push(['_trackPageview']);
 
-        <!-- <div class="topbar"> -->
-        <!--     <div class="fill"> -->
-        <!--         <div class="container"> -->
-        <!--             <a class="brand" href="#">Project name</a> -->
-        <!--             <ul class="nav"> -->
-        <!--                 <li class="active"><a href="#">Home</a></li> -->
-        <!--                 <li><a href="#about">About</a></li> -->
-        <!--                 <li><a href="#contact">Contact</a></li> -->
-        <!--             </ul> -->
-        <!--             <form action="" class="pull-right"> -->
-        <!--                 <input class="input-small" type="text" placeholder="Username"> -->
-        <!--                 <input class="input-small" type="password" placeholder="Password"> -->
-        <!--                 <button class="btn" type="submit">Sign in</button> -->
-        <!--             </form> -->
-        <!--         </div> -->
-        <!--     </div> -->
-        <!-- </div> -->
+            (function() {
+                var ga, s;
+                ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
 
         <div class="container">
             <div class="content">
@@ -41,19 +34,15 @@
                 </div>
                 <div class="row">
                     <div class="span10">
-                        <!-- TODO Figure out the *RIGHT* way to handle the Title/Content thing. -->
                         {{ tip_html }}
                     </div>
-                    <!-- <div class="span4"> -->
-                    <!--     <h3>Secondary content</h3> -->
-                    <!-- </div> -->
                 </div>
             </div>
 
             <footer>
                 <div class="copyright">The copyright for all tips is whatever the author decreed. This site just aggregates them (and provides attribution).</div>
             </footer>
-        </div> <!-- /container -->
+        </div>
     </body>
 </html>
 
