@@ -10,11 +10,14 @@ from __future__ import division
 
 
 import json
-from os import path
+from os import path, environ
 import unittest
 from flask.ext.testing import TestCase
 
 
+# Before we go importing pytips (which configures everything), we need
+# to *make sure* we're pointing at a nice, clean SQLite DB.
+environ['DATABASE_URL'] = 'sqlite:////'
 import pytips
 from pytips.models import Tip
 
