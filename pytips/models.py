@@ -6,11 +6,23 @@ from __future__ import absolute_import
 from __future__ import division
 
 
+from sqlalchemy import func
+from flask.ext.sqlalchemy import BaseQuery
+
+
 from pytips import db
+
+
+class TipQuery(BaseQuery):
+    def random_tip(self):
+        """Retrieve a random ``Tip``."""
+        return self.order_by(func.random()).first()
 
 
 class Tip(db.Model):
     """Represents a 'tip' for display."""
+    query_class = TipQuery
+
     id = db.Column(db.Integer, primary_key=True)
     author_name = db.Column(db.String, nullable=False)
     author_url = db.Column(db.String(1024), nullable=False)
