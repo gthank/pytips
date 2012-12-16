@@ -1,566 +1,660 @@
 [
     {
-        "url": "https://twitter.com/brandon_rhodes/status/142302075936710656",
-        "author_url": "https://twitter.com/brandon_rhodes",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro tip: when reading a .gz or .bz archive with <a href=\"https://twitter.com/search/%23python\">#python</a>'s “tarfile”, each getmember() call has to re-read the archive from the beginning</p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href=\"https://twitter.com/brandon_rhodes/status/142302075936710656\" data-datetime=\"2011-12-01T18:00:33+00:00\">December 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "Brandon Rhodes"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/184045965152489472",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To see every 100th element in a stream of data:for elem in itertools.islice(iterable, 0, None, 100): ...</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/184045965152489472\" data-datetime=\"2012-03-25T22:35:52+00:00\">March 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/165536537277243392",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:the expand() method on regex match objects is handy for \\1 \\2 substitutions with multiple templates: <a href=\"http://t.co/nOLf90N7\" title=\"http://docs.python.org/library/re.html#re.MatchObject\">docs.python.org/library/re.htm…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/165536537277243392\" data-datetime=\"2012-02-03T20:46:00+00:00\">February 3, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/255559436159025152",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Make 2-D sparse arrays with nested defaultdicts:d = defaultdict(lambda : defaultdict(int)); d['USA']['Texas'] += 1</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/255559436159025152\" data-datetime=\"2012-10-09T06:44:52+00:00\">October 9, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/69052970100195329",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: The fast itertools recipes can be copied to a utils module with a single cut-and-paste. <a href=\"http://bit.ly/itertools_plus\">http://bit.ly/itertools_plus</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/69052970100195329\" data-datetime=\"2011-05-13T14:54:45+00:00\">May 13, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/254373901730197505",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Two ways to iterate over collections.Counter:c.items() -&gt; [('a', 3), ('b',2)]andc.elements() -&gt; 'a', 'a' ,'a', 'b', 'b'</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/254373901730197505\" data-datetime=\"2012-10-06T00:13:58+00:00\">October 6, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/158821070927953922",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To round decimal objects, use the quantize() method.To remove the trailing zeros, use the normalize() method.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/158821070927953922\" data-datetime=\"2012-01-16T08:01:08+00:00\">January 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/192478401192402945",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> dictionary tip: setdefault(k,d) is like get(k,d) but adds a missing item.pop(k,d) is like get(k,d) but removes an item.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/192478401192402945\" data-datetime=\"2012-04-18T05:03:21+00:00\">April 18, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/139047210124967936",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:An easy technique for extending JSON to handle more datatypes:<a href=\"http://t.co/oNrqw2xl\" title=\"http://stackoverflow.com/q/8230373/1001643\">stackoverflow.com/q/8230373/1001…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/139047210124967936\" data-datetime=\"2011-11-22T18:26:52+00:00\">November 22, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/dabeaz",
-        "url": "https://twitter.com/dabeaz/status/107128831172808704",
-        "author_name": "David Beazley",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip.Mixing csv.DictReader and dictionary comprehensions together kind of rocks.</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/107128831172808704\" data-datetime=\"2011-08-26T16:34:38+00:00\">August 26, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/125648826605375488",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:It is vital to use parentheses when catching multiple exceptions.\"except IndexError, KeyError:\" is a grievous error.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/125648826605375488\" data-datetime=\"2011-10-16T19:06:29+00:00\">October 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/207970447990599681",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: s.splitlines() differs from s.split('\\n'). The latter doesn't support universal newlines, nor does it ignore a trailing \\n.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/207970447990599681\" data-datetime=\"2012-05-30T23:03:13+00:00\">May 30, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/127188066053005312",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Learn to use double underscore name mangling for private intraclass calls: <a href=\"http://t.co/9r5qrFWG\" title=\"http://stackoverflow.com/questions/7841812\">stackoverflow.com/questions/7841…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/127188066053005312\" data-datetime=\"2011-10-21T01:02:52+00:00\">October 21, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/109345745483743232",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:logging.exception(msg) automatically captures, formats, and records the current exception being handled.Nice!</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/109345745483743232\" data-datetime=\"2011-09-01T19:23:51+00:00\">September 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/66655441173741568",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip: chaining dictionaries often beats doing dict updates. <a href=\"http://bit.ly/chain_map\">http://bit.ly/chain_map</a> made configparser much faster</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/66655441173741568\" data-datetime=\"2011-05-07T00:07:50+00:00\">May 7, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/235570873950691328",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:collections.Counter() supports multiset addition, saturating subtraction, intersection, and union:<a href=\"http://t.co/4ge2d1Ju\" title=\"http://stackoverflow.com/questions/11874669\">stackoverflow.com/questions/1187…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/235570873950691328\" data-datetime=\"2012-08-15T02:57:27+00:00\">August 15, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/141682672534700032",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> extreme optimization tip:two-way generators can greatly simplify code and allow all state to be localized:<a href=\"http://t.co/jqNqZEWi\" title=\"http://code.activestate.com/recipes/577969\">code.activestate.com/recipes/577969</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/141682672534700032\" data-datetime=\"2011-11-30T00:59:16+00:00\">November 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/210763521703686144",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Pythonistas tend to pronounce str() as \"stir\", repr() as \"repper\", and __len__ as \"double under len\" or \"dunder len\".</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/210763521703686144\" data-datetime=\"2012-06-07T16:01:54+00:00\">June 7, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/126738006018244608",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:A handy and commonly over-looked builtin function is vars().Works on classes, instances, modules, argparse namespaces, ...</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/126738006018244608\" data-datetime=\"2011-10-19T19:14:29+00:00\">October 19, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/164532526965202945",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: function decorators are only useful for registration, validation, caching, annotating, logging and 1000 other things :-)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/164532526965202945\" data-datetime=\"2012-02-01T02:16:25+00:00\">February 1, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/dabeaz/status/127377559150272512",
-        "author_name": "David Beazley",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro-tip.I have posted a lot of technical presentations and tutorials about <a href=\"https://twitter.com/search/%23python\">#python</a> on slideshare.<a href=\"http://t.co/UZkAlrke\" title=\"http://www.slideshare.net/dabeaz\">slideshare.net/dabeaz</a></p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/127377559150272512\" data-datetime=\"2011-10-21T13:35:51+00:00\">October 21, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/dabeaz"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/133055570818240512",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Until Py3.3 comes out, list(s) is TheRightWay(tm) to copy a list:<a href=\"http://t.co/V2dEzZm6\" title=\"http://henry.precheur.org/python/copy_list\">henry.precheur.org/python/copy_li…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/133055570818240512\" data-datetime=\"2011-11-06T05:38:14+00:00\">November 6, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/211597394083725312",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:When possible, __repr__ methods should show how an object was constructed.The invariant should be: eval(repr(obj)) == obj.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/211597394083725312\" data-datetime=\"2012-06-09T23:15:24+00:00\">June 9, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/230834204982800384",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The test s[0]=='+' can fail when s is empty. The code in poplib uses s[:1]=='+' instead. Modern s.startswith('+') works too.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/230834204982800384\" data-datetime=\"2012-08-02T01:15:37+00:00\">August 2, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/225082567303503873",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Guard version dependent parts of your code with tests like this: sys.version_info &lt; (2, 7)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/225082567303503873\" data-datetime=\"2012-07-17T04:20:40+00:00\">July 17, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/176835085172084737",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> multiple inheritance tip:There is more to making a FlyingCar than simply subclassing from both Airplane and Car.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/176835085172084737\" data-datetime=\"2012-03-06T01:02:24+00:00\">March 6, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/110463809512144896",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:For complex regexes, the re.VERBOSE flag is your friend.It is possible to make readable, maintainable, commented regexes.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/110463809512144896\" data-datetime=\"2011-09-04T21:26:39+00:00\">September 4, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/86190333846757376",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:zip(*list_of_lists) performs a matrix transpose (columns turned into rows)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/86190333846757376\" data-datetime=\"2011-06-29T21:52:31+00:00\">June 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/256292499763634176",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:An else-clause in a try-statement runs after a successful try-clause and before the finally-clause.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/256292499763634176\" data-datetime=\"2012-10-11T07:17:48+00:00\">October 11, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/107159434609950720",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:if a function has multiple decorators, the decorators closest to the function definition get applied first.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/107159434609950720\" data-datetime=\"2011-08-26T18:36:14+00:00\">August 26, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/107870484577783808",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:conditional expressions can be chained:'A' if s&gt;=90 else 'B' if s&gt;=80 else 'C' if s&gt;=70 else 'F'</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/107870484577783808\" data-datetime=\"2011-08-28T17:41:42+00:00\">August 28, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/164969611794726912",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: tuple unpacking can be nested: \"for i, (key, val) in enumerate(d.items())\" and \"for (px,py), (qx,qy) in zip(points1, points2)\"</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/164969611794726912\" data-datetime=\"2012-02-02T07:13:15+00:00\">February 2, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/103924917480849408",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:start using argparse and forget about optparse.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/103924917480849408\" data-datetime=\"2011-08-17T20:23:25+00:00\">August 17, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/114601605441138688",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:frozensets are hashable so you can use them as dict keys or as members of another set.This is handy for graph algorithms.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/114601605441138688\" data-datetime=\"2011-09-16T07:28:46+00:00\">September 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/78104160003829762",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:Implement the Flyweight pattern with __slots__ which prevents creation of instance dicts. <a href=\"http://bit.ly/flyweight\">http://bit.ly/flyweight</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/78104160003829762\" data-datetime=\"2011-06-07T14:20:57+00:00\">June 7, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/222755074617782272",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:There is a really nice demo of using Python with Curses at Demo/curse/life.py <a href=\"http://t.co/ujReZcoA\" title=\"http://hg.python.org/cpython/file/4f891f44ec15/Demo/curses/life.py\">hg.python.org/cpython/file/4…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/222755074617782272\" data-datetime=\"2012-07-10T18:12:03+00:00\">July 10, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/160180170295214080",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:one way to loop over a sequence pairwise is:for x, y in zip(s, s[1:])</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/160180170295214080\" data-datetime=\"2012-01-20T02:01:43+00:00\">January 20, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/214810462490071040",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: When you see code like this, \"p = p[:2] + (p[2]+1) + p[3:]\", consider using a namedtuple to improve clarity and maintainability</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/214810462490071040\" data-datetime=\"2012-06-18T20:02:59+00:00\">June 18, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/86563008351977472",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> 2.x pro tip:'DPyDthUlDUogKlRnlRR BSIDRSRrUKogIKUcRDISlDKDks!B'.translate(None, 'BDIKRSUglz')</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/86563008351977472\" data-datetime=\"2011-06-30T22:33:24+00:00\">June 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/154384408521084928",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:most folks prefer len(s) to s.__len__(), prefer next(it) to it.next(), but forget to use vars(s) rather than s.__dict__</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/154384408521084928\" data-datetime=\"2012-01-04T02:11:25+00:00\">January 4, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/162215723165417473",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Argument unpacking works with any iterable.For example:x,y,z='abc' is valid.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/162215723165417473\" data-datetime=\"2012-01-25T16:50:16+00:00\">January 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/218335354313383936",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:New-style string formatting supports a thousands separator for nice human readable output:format(1234567.89, ',.2f')</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/218335354313383936\" data-datetime=\"2012-06-28T13:29:39+00:00\">June 28, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/75975970040979457",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:use named tuples liberally, almost never index a tuple, either unpack it or use attribute access.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/75975970040979457\" data-datetime=\"2011-06-01T17:24:17+00:00\">June 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/223455491169320962",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The argparse tutorial is a delight to read:<a href=\"http://t.co/PHWu8lL3\" title=\"http://docs.python.org/howto/argparse.html\">docs.python.org/howto/argparse…</a>(way better than the regular argparse docs).</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/223455491169320962\" data-datetime=\"2012-07-12T16:35:15+00:00\">July 12, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/103568767166058497",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:textwrap.dedent() is great for unindenting triple-quoted string literals found in indented code blocks.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/103568767166058497\" data-datetime=\"2011-08-16T20:48:12+00:00\">August 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/renedudfield/status/25869787348",
-        "author_url": "https://twitter.com/renedudfield",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #14. Great guide <a href=\"http://diveintopython3.org/packaging.html\">http://diveintopython3.org/packaging.html</a> Slightly dated (2009) since py packaging moves fast.</p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25869787348\" data-datetime=\"2010-09-29T10:09:25+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "Rene Dudfield"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/93377228611665920",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:One way to implement the observer design pattern: <a href=\"http://t.co/74CMd6M\" title=\"http://code.activestate.com/recipes/576979\">code.activestate.com/recipes/576979</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/93377228611665920\" data-datetime=\"2011-07-19T17:50:40+00:00\">July 19, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/101800468048654336",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Periodically revisit the fundamentals of object oriented design:<a href=\"http://t.co/Zsp9RKL\" title=\"http://en.wikipedia.org/wiki/GRASP_(object-oriented_design)\">en.wikipedia.org/wiki/GRASP_(ob…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/101800468048654336\" data-datetime=\"2011-08-11T23:41:37+00:00\">August 11, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/190568767158358017",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Tuple unpacking works even when iterables are nested:(a, b, c), (d, e, f), g = [[1,2,3], [4,5,6], [7,8,9]]</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/190568767158358017\" data-datetime=\"2012-04-12T22:35:09+00:00\">April 12, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/237802740087152641",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Imports are cached in sys.modules.Use reload() to bypass the cache and actually rerun the module's code.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/237802740087152641\" data-datetime=\"2012-08-21T06:46:06+00:00\">August 21, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/158981631527485441",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Sparse 2d-arrays can be stored with a single dict accessed with a[i, j] or as a dict-of-dicts accessed with a[i][j]</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/158981631527485441\" data-datetime=\"2012-01-16T18:39:09+00:00\">January 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/152201692799184897",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:timeit says that (x+0.0) is much faster than float(x) where x is an integer or float.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/152201692799184897\" data-datetime=\"2011-12-29T01:38:05+00:00\">December 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/renedudfield/status/25890743283",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #22. pep 386 specifies version scheme for Distutils - use it.<a href=\"http://www.python.org/dev/peps/pep-0386/\">http://www.python.org/dev/peps/pep-0386/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25890743283\" data-datetime=\"2010-09-29T15:04:07+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/renedudfield",
-        "author_name": "Rene Dudfield"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/185818102968221698",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> teaching tip: people need to know dict.get and dict.setdefault before encountering defaultdict.Basic types before exotic ones.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/185818102968221698\" data-datetime=\"2012-03-30T19:57:42+00:00\">March 30, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/99143885523128320",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:sqlite3 is so widely supported, it's not just a database, it is a data interchange format.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/99143885523128320\" data-datetime=\"2011-08-04T15:45:18+00:00\">August 4, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/131023460725039105",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:str.startswith() can accept a tuple of possible matches:s.startswith(('Mon','Tue','Wed','Thu','Fri','Sat','Sun'))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131023460725039105\" data-datetime=\"2011-10-31T15:03:21+00:00\">October 31, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/dabeaz/status/63979644105392128",
-        "author_url": "https://twitter.com/dabeaz",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro-tip.Follow @<a href=\"https://twitter.com/raymondh\">raymondh</a></p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/63979644105392128\" data-datetime=\"2011-04-29T14:55:10+00:00\">April 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "David Beazley"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/191238648283398145",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> with-statement tip:The __exit__ method is always called. If it returns True, any pending exception is cleared.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/191238648283398145\" data-datetime=\"2012-04-14T18:57:01+00:00\">April 14, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/renedudfield",
-        "url": "https://twitter.com/renedudfield/status/25978918732",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #25. Tests are good.See what you are not testing with the coverage package. <a href=\"http://nedbatchelder.com/code/coverage/\">http://nedbatchelder.com/code/coverage/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25978918732\" data-datetime=\"2010-09-30T13:27:56+00:00\">September 30, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "Rene Dudfield"
-    },
-    {
-        "url": "https://twitter.com/nedbat/status/264063811051479040",
-        "author_name": "Ned Batchelder",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro <a href=\"https://twitter.com/search/%23python\">#python</a> tip: if you find a file called legacy.py that is never imported, and wouldn't run if it was imported, delete it.</p>&mdash; Ned Batchelder (@nedbat) <a href=\"https://twitter.com/nedbat/status/264063811051479040\" data-datetime=\"2012-11-01T17:58:13+00:00\">November 1, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/nedbat"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/69102090806493184",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Turn an argparse namespace into a regular dictionary by running vars() on the parse_args() result</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/69102090806493184\" data-datetime=\"2011-05-13T18:09:56+00:00\">May 13, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_url": "https://twitter.com/dabeaz",
-        "url": "https://twitter.com/dabeaz/status/149958203491352576",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> double-secret re tip:You can tokenize strings from a regex using 'for m in iter(pattern.scanner(text).match,None):'</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/149958203491352576\" data-datetime=\"2011-12-22T21:03:16+00:00\">December 22, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "David Beazley"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/131056967484583936",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:It pays to periodically expand your awareness of what can be done with decorators:<a href=\"http://t.co/hkQp14pi\" title=\"http://wiki.python.org/moin/PythonDecoratorLibrary\">wiki.python.org/moin/PythonDec…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131056967484583936\" data-datetime=\"2011-10-31T17:16:30+00:00\">October 31, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/149198803919056896",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:SocketServer scales effortlessly. Just add ThreadingMixin or ForkingMixin. <a href=\"http://t.co/aurg2ZdK\" title=\"http://docs.python.org/library/socketserver.html#asynchronous-mixins\">docs.python.org/library/socket…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/149198803919056896\" data-datetime=\"2011-12-20T18:45:41+00:00\">December 20, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_name": "Alex Gaynor",
-        "author_url": "https://twitter.com/alex_gaynor",
-        "url": "https://twitter.com/alex_gaynor/status/167114075824857088",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: need to write tests for true div (aka -Q or from __future__ import division), use `operator.truediv`</p>&mdash; Alex Gaynor (@alex_gaynor) <a href=\"https://twitter.com/alex_gaynor/status/167114075824857088\" data-datetime=\"2012-02-08T05:14:35+00:00\">February 8, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_name": "Rene Dudfield",
-        "url": "https://twitter.com/renedudfield/status/25614642787",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #5.The hitch hikers guide to packaging is a good starting point: <a href=\"http://guide.python-distribute.org/\">http://guide.python-distribute.org/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25614642787\" data-datetime=\"2010-09-26T18:50:03+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/renedudfield"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/136142110968655872",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: @<a href=\"https://twitter.com/jessenoller\">jessenoller</a> has compile an excellent python reading list:<a href=\"http://t.co/GSfAag0L\" title=\"http://jessenoller.com/good-to-great-python-reads/\">jessenoller.com/good-to-great-…</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/136142110968655872\" data-datetime=\"2011-11-14T18:03:03+00:00\">November 14, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/146063243889221632",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Go ahead and fall in love with the with-statement, but don't forget that sometimes a simple try/finally is a better solution.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/146063243889221632\" data-datetime=\"2011-12-12T03:06:05+00:00\">December 12, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/66286505445957632",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:avoid embarrassment, use pyflakes :-) <a href=\"http://pypi.python.org/pypi/pyflakes\">http://pypi.python.org/pypi/pyflakes</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/66286505445957632\" data-datetime=\"2011-05-05T23:41:49+00:00\">May 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/174634825104375808",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The use of the __del__ magic method is rarely warranted.A context manager or explicit close is much preferred.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/174634825104375808\" data-datetime=\"2012-02-28T23:19:21+00:00\">February 28, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/182184195689426944",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:list subsequence insertion can be done with slices:s=range(0,100,10); s[2:4] = range(20, 40)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/182184195689426944\" data-datetime=\"2012-03-20T19:17:51+00:00\">March 20, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/256953694287958016",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:A new exception encountered in a finally-clause will cause the current exception to be lost.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/256953694287958016\" data-datetime=\"2012-10-13T03:05:09+00:00\">October 13, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/131802356126982144",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:subprocess.check_output() and subprocess.check_call() are higher level and easier to use than subprocess.Popen().</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131802356126982144\" data-datetime=\"2011-11-02T18:38:25+00:00\">November 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "author_name": "Brandon Rhodes",
-        "url": "https://twitter.com/brandon_rhodes/status/182548676915367936",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro tip—in <a href=\"https://twitter.com/search/%23python\">#python</a> do \"lines = iter(myfile)\" then you can mix-and-match \"next(lines)\" to get a single line with \"for line in lines: … break\"</p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href=\"https://twitter.com/brandon_rhodes/status/182548676915367936\" data-datetime=\"2012-03-21T19:26:10+00:00\">March 21, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/brandon_rhodes"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/159820289272844288",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:When you write \"x in s\", the interpreter calls s.__contains__(x), but if contains isn't defined, it tries s.__getitem__(i)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/159820289272844288\" data-datetime=\"2012-01-19T02:11:40+00:00\">January 19, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/172827237198999552",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Need robust commercial support for Python?Try the distros from <a href=\"https://twitter.com/search/%23ActiveState\">#ActiveState</a> and <a href=\"https://twitter.com/search/%23Enthought\">#Enthought</a>.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/172827237198999552\" data-datetime=\"2012-02-23T23:36:38+00:00\">February 23, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/76429329269137408",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip: Slices with negative steps are hard to grok. Use reversed() instead.s[j-1:i-1:-1] --&gt; list(reversed(s[i:j]))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/76429329269137408\" data-datetime=\"2011-06-02T23:25:46+00:00\">June 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/214137003011358722",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:gzip is a bit awkward with str/bytes input:content = gzip.GzipFile(fileobj=StringIO.StringIO(content), mode='rb').read()</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/214137003011358722\" data-datetime=\"2012-06-16T23:26:54+00:00\">June 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/152561455030484993",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> meta-tip:Support the Python community by donating to the PSF: <a href=\"http://t.co/9HjtdrJB\" title=\"http://www.python.org/psf/donations/\">python.org/psf/donations/</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/152561455030484993\" data-datetime=\"2011-12-30T01:27:39+00:00\">December 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/176812464799891456",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Composition generally beats inheritance, unless the composition pattern essentially reinvents what inheritance already does ;-)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/176812464799891456\" data-datetime=\"2012-03-05T23:32:31+00:00\">March 5, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/renedudfield/status/25615965176",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #7. A list of trove classifiers to categorise your packages <a href=\"http://pypi.python.org/pypi?%3Aaction=list_classifiers\">http://pypi.python.org/pypi?%3Aaction=list_classifiers</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25615965176\" data-datetime=\"2010-09-26T19:09:25+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "Rene Dudfield",
-        "author_url": "https://twitter.com/renedudfield"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/132671235107729408",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:f.is_integer() is the new way to test whether a float is integral.The old way, x==int(x), is history.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/132671235107729408\" data-datetime=\"2011-11-05T04:11:02+00:00\">November 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/renedudfield/status/25614960528",
-        "author_name": "Rene Dudfield",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #6 <a href=\"http://pypi.python.org/\">http://pypi.python.org/</a> is the python package index which used to have a funny name - the cheese shop.</p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25614960528\" data-datetime=\"2010-09-26T18:54:45+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/renedudfield"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/132966168930680833",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:how convert a datetime object to a time object:time.mktime(dt.timetuple()) + dt.microsecond / 1E6</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/132966168930680833\" data-datetime=\"2011-11-05T23:42:59+00:00\">November 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "url": "https://twitter.com/raymondh/status/64443449948110849",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:html5lib is *so* much better than BeautifulSoup it's not even funny.<a href=\"http://code.google.com/p/html5lib/\">http://code.google.com/p/html5lib/</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/64443449948110849\" data-datetime=\"2011-04-30T21:38:10+00:00\">April 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/250737278689873920",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The metaclass of a class gets inherited by its subclasses.So subclassers don't need to write:__metaclass__ = MyMeta</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/250737278689873920\" data-datetime=\"2012-09-25T23:23:20+00:00\">September 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/239840911973031936",
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:What can lists do that tuples can't:print(sorted(set(dir(list)) - set(dir(tuple))))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/239840911973031936\" data-datetime=\"2012-08-26T21:45:04+00:00\">August 26, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/173248671998160896",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To raise multiple exceptions at once, build a combined exception:class MyOverflow(OverflowError, ValueError): pass</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/173248671998160896\" data-datetime=\"2012-02-25T03:31:16+00:00\">February 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "author_url": "https://twitter.com/raymondh",
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/126810830456098818",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Linux/Mac users should open binary files in the \"rb\" mode.That will avoid unpleasantness on Windows and on Py3.x</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/126810830456098818\" data-datetime=\"2011-10-20T00:03:52+00:00\">October 20, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/dabeaz/status/146915348426391552",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Seems that my <a href=\"https://twitter.com/search/%23python\">#python</a> generator presentation is generating buzz again.Pro-tip: visit <a href=\"http://t.co/HyPfkL1o\" title=\"http://slideshare.net/dabeaz\">slideshare.net/dabeaz</a> for much more</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/146915348426391552\" data-datetime=\"2011-12-14T11:32:03+00:00\">December 14, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "David Beazley",
-        "author_url": "https://twitter.com/dabeaz"
-    },
-    {
-        "author_name": "raymondh",
-        "url": "https://twitter.com/raymondh/status/63769939881885696",
-        "author_url": "https://twitter.com/raymondh",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro-tip: deque's optional maxlen argument useful for n most recent items, moving averages, sliding windows, tailing files</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/63769939881885696\" data-datetime=\"2011-04-29T01:01:53+00:00\">April 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/98412124086341632",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: whenever a slice has negative variable for the right index,such as s[:-i], I suspect a bug for the case where i==0</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/98412124086341632\" data-datetime=\"2011-08-02T15:17:33+00:00\">August 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
-    },
-    {
-        "url": "https://twitter.com/renedudfield/status/25868900160",
-        "author_name": "Rene Dudfield",
-        "author_url": "https://twitter.com/renedudfield",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #13. pep 345, latest spec for adding metadata to Python distributions. <a href=\"http://www.python.org/dev/peps/pep-0345/\">http://www.python.org/dev/peps/pep-0345/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25868900160\" data-datetime=\"2010-09-29T09:51:26+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-    },
-    {
-        "url": "https://twitter.com/raymondh/status/260765941367992320",
-        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Exceptions are temporarily hidden before a finally clause is run. Capture any needed exception info in a preceding except-clause</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/260765941367992320\" data-datetime=\"2012-10-23T15:33:39+00:00\">October 23, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-        "author_name": "raymondh",
-        "author_url": "https://twitter.com/raymondh"
+        "author_name": "Brandon Rhodes", 
+        "author_url": "https://twitter.com/brandon_rhodes", 
+        "publication_date": "2011-12-01T13:00:33-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro tip: when reading a .gz or .bz archive with <a href=\"https://twitter.com/search/%23python\">#python</a>'s \u201ctarfile\u201d, each getmember() call has to re-read the archive from the beginning</p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href=\"https://twitter.com/brandon_rhodes/status/142302075936710656\" data-datetime=\"2011-12-01T18:00:33+00:00\">December 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/brandon_rhodes/status/142302075936710656"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-03-25T18:35:52-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To see every 100th element in a stream of data:for elem in itertools.islice(iterable, 0, None, 100): ...</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/184045965152489472\" data-datetime=\"2012-03-25T22:35:52+00:00\">March 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/184045965152489472"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-02-03T15:46:00-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:the expand() method on regex match objects is handy for \\1 \\2 substitutions with multiple templates: <a href=\"http://t.co/nOLf90N7\" title=\"http://docs.python.org/library/re.html#re.MatchObject\">docs.python.org/library/re.htm\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/165536537277243392\" data-datetime=\"2012-02-03T20:46:00+00:00\">February 3, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/165536537277243392"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-10-09T02:44:52-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Make 2-D sparse arrays with nested defaultdicts:d = defaultdict(lambda : defaultdict(int)); d['USA']['Texas'] += 1</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/255559436159025152\" data-datetime=\"2012-10-09T06:44:52+00:00\">October 9, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/255559436159025152"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-05-13T10:54:45-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: The fast itertools recipes can be copied to a utils module with a single cut-and-paste. <a href=\"http://bit.ly/itertools_plus\">http://bit.ly/itertools_plus</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/69052970100195329\" data-datetime=\"2011-05-13T14:54:45+00:00\">May 13, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/69052970100195329"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-10-05T20:13:58-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Two ways to iterate over collections.Counter:c.items() -&gt; [('a', 3), ('b',2)]andc.elements() -&gt; 'a', 'a' ,'a', 'b', 'b'</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/254373901730197505\" data-datetime=\"2012-10-06T00:13:58+00:00\">October 6, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/254373901730197505"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-16T03:01:08-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To round decimal objects, use the quantize() method.To remove the trailing zeros, use the normalize() method.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/158821070927953922\" data-datetime=\"2012-01-16T08:01:08+00:00\">January 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/158821070927953922"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-04-18T01:03:21-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> dictionary tip: setdefault(k,d) is like get(k,d) but adds a missing item.pop(k,d) is like get(k,d) but removes an item.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/192478401192402945\" data-datetime=\"2012-04-18T05:03:21+00:00\">April 18, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/192478401192402945"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-22T13:26:52-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:An easy technique for extending JSON to handle more datatypes:<a href=\"http://t.co/oNrqw2xl\" title=\"http://stackoverflow.com/q/8230373/1001643\">stackoverflow.com/q/8230373/1001\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/139047210124967936\" data-datetime=\"2011-11-22T18:26:52+00:00\">November 22, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/139047210124967936"
+    }, 
+    {
+        "author_name": "David Beazley", 
+        "author_url": "https://twitter.com/dabeaz", 
+        "publication_date": "2011-08-26T12:34:38-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip.Mixing csv.DictReader and dictionary comprehensions together kind of rocks.</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/107128831172808704\" data-datetime=\"2011-08-26T16:34:38+00:00\">August 26, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/dabeaz/status/107128831172808704"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-16T15:06:29-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:It is vital to use parentheses when catching multiple exceptions.\"except IndexError, KeyError:\" is a grievous error.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/125648826605375488\" data-datetime=\"2011-10-16T19:06:29+00:00\">October 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/125648826605375488"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-05-30T19:03:13-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: s.splitlines() differs from s.split('\\n'). The latter doesn't support universal newlines, nor does it ignore a trailing \\n.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/207970447990599681\" data-datetime=\"2012-05-30T23:03:13+00:00\">May 30, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/207970447990599681"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-20T21:02:52-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Learn to use double underscore name mangling for private intraclass calls: <a href=\"http://t.co/9r5qrFWG\" title=\"http://stackoverflow.com/questions/7841812\">stackoverflow.com/questions/7841\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/127188066053005312\" data-datetime=\"2011-10-21T01:02:52+00:00\">October 21, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/127188066053005312"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-09-01T15:23:51-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:logging.exception(msg) automatically captures, formats, and records the current exception being handled.Nice!</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/109345745483743232\" data-datetime=\"2011-09-01T19:23:51+00:00\">September 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/109345745483743232"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-05-06T20:07:50-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip: chaining dictionaries often beats doing dict updates. <a href=\"http://bit.ly/chain_map\">http://bit.ly/chain_map</a> made configparser much faster</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/66655441173741568\" data-datetime=\"2011-05-07T00:07:50+00:00\">May 7, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/66655441173741568"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-08-14T22:57:27-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:collections.Counter() supports multiset addition, saturating subtraction, intersection, and union:<a href=\"http://t.co/4ge2d1Ju\" title=\"http://stackoverflow.com/questions/11874669\">stackoverflow.com/questions/1187\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/235570873950691328\" data-datetime=\"2012-08-15T02:57:27+00:00\">August 15, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/235570873950691328"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-29T19:59:16-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> extreme optimization tip:two-way generators can greatly simplify code and allow all state to be localized:<a href=\"http://t.co/jqNqZEWi\" title=\"http://code.activestate.com/recipes/577969\">code.activestate.com/recipes/577969</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/141682672534700032\" data-datetime=\"2011-11-30T00:59:16+00:00\">November 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/141682672534700032"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-06-07T12:01:54-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Pythonistas tend to pronounce str() as \"stir\", repr() as \"repper\", and __len__ as \"double under len\" or \"dunder len\".</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/210763521703686144\" data-datetime=\"2012-06-07T16:01:54+00:00\">June 7, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/210763521703686144"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-19T15:14:29-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:A handy and commonly over-looked builtin function is vars().Works on classes, instances, modules, argparse namespaces, ...</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/126738006018244608\" data-datetime=\"2011-10-19T19:14:29+00:00\">October 19, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/126738006018244608"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-31T21:16:25-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: function decorators are only useful for registration, validation, caching, annotating, logging and 1000 other things :-)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/164532526965202945\" data-datetime=\"2012-02-01T02:16:25+00:00\">February 1, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/164532526965202945"
+    }, 
+    {
+        "author_name": "David Beazley", 
+        "author_url": "https://twitter.com/dabeaz", 
+        "publication_date": "2011-10-21T09:35:51-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro-tip.I have posted a lot of technical presentations and tutorials about <a href=\"https://twitter.com/search/%23python\">#python</a> on slideshare.<a href=\"http://t.co/UZkAlrke\" title=\"http://www.slideshare.net/dabeaz\">slideshare.net/dabeaz</a></p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/127377559150272512\" data-datetime=\"2011-10-21T13:35:51+00:00\">October 21, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/dabeaz/status/127377559150272512"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-06T01:38:14-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Until Py3.3 comes out, list(s) is TheRightWay(tm) to copy a list:<a href=\"http://t.co/V2dEzZm6\" title=\"http://henry.precheur.org/python/copy_list\">henry.precheur.org/python/copy_li\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/133055570818240512\" data-datetime=\"2011-11-06T05:38:14+00:00\">November 6, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/133055570818240512"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-06-09T19:15:24-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:When possible, __repr__ methods should show how an object was constructed.The invariant should be: eval(repr(obj)) == obj.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/211597394083725312\" data-datetime=\"2012-06-09T23:15:24+00:00\">June 9, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/211597394083725312"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-08-01T21:15:37-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The test s[0]=='+' can fail when s is empty. The code in poplib uses s[:1]=='+' instead. Modern s.startswith('+') works too.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/230834204982800384\" data-datetime=\"2012-08-02T01:15:37+00:00\">August 2, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/230834204982800384"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-07-17T00:20:40-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Guard version dependent parts of your code with tests like this: sys.version_info &lt; (2, 7)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/225082567303503873\" data-datetime=\"2012-07-17T04:20:40+00:00\">July 17, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/225082567303503873"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-03-05T20:02:24-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> multiple inheritance tip:There is more to making a FlyingCar than simply subclassing from both Airplane and Car.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/176835085172084737\" data-datetime=\"2012-03-06T01:02:24+00:00\">March 6, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/176835085172084737"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-09-04T17:26:39-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:For complex regexes, the re.VERBOSE flag is your friend.It is possible to make readable, maintainable, commented regexes.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/110463809512144896\" data-datetime=\"2011-09-04T21:26:39+00:00\">September 4, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/110463809512144896"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-06-29T17:52:31-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:zip(*list_of_lists) performs a matrix transpose (columns turned into rows)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/86190333846757376\" data-datetime=\"2011-06-29T21:52:31+00:00\">June 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/86190333846757376"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-10-11T03:17:48-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:An else-clause in a try-statement runs after a successful try-clause and before the finally-clause.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/256292499763634176\" data-datetime=\"2012-10-11T07:17:48+00:00\">October 11, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/256292499763634176"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-26T14:36:14-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:if a function has multiple decorators, the decorators closest to the function definition get applied first.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/107159434609950720\" data-datetime=\"2011-08-26T18:36:14+00:00\">August 26, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/107159434609950720"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-28T13:41:42-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:conditional expressions can be chained:'A' if s&gt;=90 else 'B' if s&gt;=80 else 'C' if s&gt;=70 else 'F'</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/107870484577783808\" data-datetime=\"2011-08-28T17:41:42+00:00\">August 28, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/107870484577783808"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-02-02T02:13:15-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: tuple unpacking can be nested: \"for i, (key, val) in enumerate(d.items())\" and \"for (px,py), (qx,qy) in zip(points1, points2)\"</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/164969611794726912\" data-datetime=\"2012-02-02T07:13:15+00:00\">February 2, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/164969611794726912"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-17T16:23:25-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:start using argparse and forget about optparse.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/103924917480849408\" data-datetime=\"2011-08-17T20:23:25+00:00\">August 17, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/103924917480849408"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-09-16T03:28:46-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:frozensets are hashable so you can use them as dict keys or as members of another set.This is handy for graph algorithms.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/114601605441138688\" data-datetime=\"2011-09-16T07:28:46+00:00\">September 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/114601605441138688"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-06-07T10:20:57-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:Implement the Flyweight pattern with __slots__ which prevents creation of instance dicts. <a href=\"http://bit.ly/flyweight\">http://bit.ly/flyweight</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/78104160003829762\" data-datetime=\"2011-06-07T14:20:57+00:00\">June 7, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/78104160003829762"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-07-10T14:12:03-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:There is a really nice demo of using Python with Curses at Demo/curse/life.py <a href=\"http://t.co/ujReZcoA\" title=\"http://hg.python.org/cpython/file/4f891f44ec15/Demo/curses/life.py\">hg.python.org/cpython/file/4\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/222755074617782272\" data-datetime=\"2012-07-10T18:12:03+00:00\">July 10, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/222755074617782272"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-19T21:01:43-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:one way to loop over a sequence pairwise is:for x, y in zip(s, s[1:])</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/160180170295214080\" data-datetime=\"2012-01-20T02:01:43+00:00\">January 20, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/160180170295214080"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-06-18T16:02:59-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: When you see code like this, \"p = p[:2] + (p[2]+1) + p[3:]\", consider using a namedtuple to improve clarity and maintainability</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/214810462490071040\" data-datetime=\"2012-06-18T20:02:59+00:00\">June 18, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/214810462490071040"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-06-30T18:33:24-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> 2.x pro tip:'DPyDthUlDUogKlRnlRR BSIDRSRrUKogIKUcRDISlDKDks!B'.translate(None, 'BDIKRSUglz')</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/86563008351977472\" data-datetime=\"2011-06-30T22:33:24+00:00\">June 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/86563008351977472"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-03T21:11:25-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:most folks prefer len(s) to s.__len__(), prefer next(it) to it.next(), but forget to use vars(s) rather than s.__dict__</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/154384408521084928\" data-datetime=\"2012-01-04T02:11:25+00:00\">January 4, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/154384408521084928"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-25T11:50:16-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Argument unpacking works with any iterable.For example:x,y,z='abc' is valid.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/162215723165417473\" data-datetime=\"2012-01-25T16:50:16+00:00\">January 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/162215723165417473"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-06-28T09:29:39-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:New-style string formatting supports a thousands separator for nice human readable output:format(1234567.89, ',.2f')</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/218335354313383936\" data-datetime=\"2012-06-28T13:29:39+00:00\">June 28, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/218335354313383936"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-06-01T13:24:17-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:use named tuples liberally, almost never index a tuple, either unpack it or use attribute access.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/75975970040979457\" data-datetime=\"2011-06-01T17:24:17+00:00\">June 1, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/75975970040979457"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-07-12T12:35:15-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The argparse tutorial is a delight to read:<a href=\"http://t.co/PHWu8lL3\" title=\"http://docs.python.org/howto/argparse.html\">docs.python.org/howto/argparse\u2026</a>(way better than the regular argparse docs).</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/223455491169320962\" data-datetime=\"2012-07-12T16:35:15+00:00\">July 12, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/223455491169320962"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-16T16:48:12-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:textwrap.dedent() is great for unindenting triple-quoted string literals found in indented code blocks.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/103568767166058497\" data-datetime=\"2011-08-16T20:48:12+00:00\">August 16, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/103568767166058497"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-29T06:09:25-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #14. Great guide <a href=\"http://diveintopython3.org/packaging.html\">http://diveintopython3.org/packaging.html</a> Slightly dated (2009) since py packaging moves fast.</p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25869787348\" data-datetime=\"2010-09-29T10:09:25+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25869787348"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-07-19T13:50:40-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:One way to implement the observer design pattern: <a href=\"http://t.co/74CMd6M\" title=\"http://code.activestate.com/recipes/576979\">code.activestate.com/recipes/576979</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/93377228611665920\" data-datetime=\"2011-07-19T17:50:40+00:00\">July 19, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/93377228611665920"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-11T19:41:37-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Periodically revisit the fundamentals of object oriented design:<a href=\"http://t.co/Zsp9RKL\" title=\"http://en.wikipedia.org/wiki/GRASP_(object-oriented_design)\">en.wikipedia.org/wiki/GRASP_(ob\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/101800468048654336\" data-datetime=\"2011-08-11T23:41:37+00:00\">August 11, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/101800468048654336"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-04-12T18:35:09-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Tuple unpacking works even when iterables are nested:(a, b, c), (d, e, f), g = [[1,2,3], [4,5,6], [7,8,9]]</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/190568767158358017\" data-datetime=\"2012-04-12T22:35:09+00:00\">April 12, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/190568767158358017"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-08-21T02:46:06-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Imports are cached in sys.modules.Use reload() to bypass the cache and actually rerun the module's code.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/237802740087152641\" data-datetime=\"2012-08-21T06:46:06+00:00\">August 21, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/237802740087152641"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-16T13:39:09-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Sparse 2d-arrays can be stored with a single dict accessed with a[i, j] or as a dict-of-dicts accessed with a[i][j]</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/158981631527485441\" data-datetime=\"2012-01-16T18:39:09+00:00\">January 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/158981631527485441"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-12-28T20:38:05-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:timeit says that (x+0.0) is much faster than float(x) where x is an integer or float.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/152201692799184897\" data-datetime=\"2011-12-29T01:38:05+00:00\">December 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/152201692799184897"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-29T11:04:07-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #22. pep 386 specifies version scheme for Distutils - use it.<a href=\"http://www.python.org/dev/peps/pep-0386/\">http://www.python.org/dev/peps/pep-0386/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25890743283\" data-datetime=\"2010-09-29T15:04:07+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25890743283"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-03-30T15:57:42-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> teaching tip: people need to know dict.get and dict.setdefault before encountering defaultdict.Basic types before exotic ones.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/185818102968221698\" data-datetime=\"2012-03-30T19:57:42+00:00\">March 30, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/185818102968221698"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-04T11:45:18-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:sqlite3 is so widely supported, it's not just a database, it is a data interchange format.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/99143885523128320\" data-datetime=\"2011-08-04T15:45:18+00:00\">August 4, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/99143885523128320"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-31T11:03:21-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:str.startswith() can accept a tuple of possible matches:s.startswith(('Mon','Tue','Wed','Thu','Fri','Sat','Sun'))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131023460725039105\" data-datetime=\"2011-10-31T15:03:21+00:00\">October 31, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/131023460725039105"
+    }, 
+    {
+        "author_name": "David Beazley", 
+        "author_url": "https://twitter.com/dabeaz", 
+        "publication_date": "2011-04-29T10:55:10-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro-tip.Follow @<a href=\"https://twitter.com/raymondh\">raymondh</a></p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/63979644105392128\" data-datetime=\"2011-04-29T14:55:10+00:00\">April 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/dabeaz/status/63979644105392128"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-04-14T14:57:01-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> with-statement tip:The __exit__ method is always called. If it returns True, any pending exception is cleared.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/191238648283398145\" data-datetime=\"2012-04-14T18:57:01+00:00\">April 14, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/191238648283398145"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-30T09:27:56-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #25. Tests are good.See what you are not testing with the coverage package. <a href=\"http://nedbatchelder.com/code/coverage/\">http://nedbatchelder.com/code/coverage/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25978918732\" data-datetime=\"2010-09-30T13:27:56+00:00\">September 30, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25978918732"
+    }, 
+    {
+        "author_name": "Ned Batchelder", 
+        "author_url": "https://twitter.com/nedbat", 
+        "publication_date": "2012-11-01T13:58:13-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro <a href=\"https://twitter.com/search/%23python\">#python</a> tip: if you find a file called legacy.py that is never imported, and wouldn't run if it was imported, delete it.</p>&mdash; Ned Batchelder (@nedbat) <a href=\"https://twitter.com/nedbat/status/264063811051479040\" data-datetime=\"2012-11-01T17:58:13+00:00\">November 1, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/nedbat/status/264063811051479040"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-05-13T14:09:56-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Turn an argparse namespace into a regular dictionary by running vars() on the parse_args() result</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/69102090806493184\" data-datetime=\"2011-05-13T18:09:56+00:00\">May 13, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/69102090806493184"
+    }, 
+    {
+        "author_name": "David Beazley", 
+        "author_url": "https://twitter.com/dabeaz", 
+        "publication_date": "2011-12-22T16:03:16-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> double-secret re tip:You can tokenize strings from a regex using 'for m in iter(pattern.scanner(text).match,None):'</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/149958203491352576\" data-datetime=\"2011-12-22T21:03:16+00:00\">December 22, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/dabeaz/status/149958203491352576"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-31T13:16:30-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:It pays to periodically expand your awareness of what can be done with decorators:<a href=\"http://t.co/hkQp14pi\" title=\"http://wiki.python.org/moin/PythonDecoratorLibrary\">wiki.python.org/moin/PythonDec\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131056967484583936\" data-datetime=\"2011-10-31T17:16:30+00:00\">October 31, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/131056967484583936"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-12-20T13:45:41-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:SocketServer scales effortlessly. Just add ThreadingMixin or ForkingMixin. <a href=\"http://t.co/aurg2ZdK\" title=\"http://docs.python.org/library/socketserver.html#asynchronous-mixins\">docs.python.org/library/socket\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/149198803919056896\" data-datetime=\"2011-12-20T18:45:41+00:00\">December 20, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/149198803919056896"
+    }, 
+    {
+        "author_name": "Alex Gaynor", 
+        "author_url": "https://twitter.com/alex_gaynor", 
+        "publication_date": "2012-02-08T00:14:35-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: need to write tests for true div (aka -Q or from __future__ import division), use `operator.truediv`</p>&mdash; Alex Gaynor (@alex_gaynor) <a href=\"https://twitter.com/alex_gaynor/status/167114075824857088\" data-datetime=\"2012-02-08T05:14:35+00:00\">February 8, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/alex_gaynor/status/167114075824857088"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-26T14:50:03-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #5.The hitch hikers guide to packaging is a good starting point: <a href=\"http://guide.python-distribute.org/\">http://guide.python-distribute.org/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25614642787\" data-datetime=\"2010-09-26T18:50:03+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25614642787"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-14T13:03:03-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: @<a href=\"https://twitter.com/jessenoller\">jessenoller</a> has compile an excellent python reading list:<a href=\"http://t.co/GSfAag0L\" title=\"http://jessenoller.com/good-to-great-python-reads/\">jessenoller.com/good-to-great-\u2026</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/136142110968655872\" data-datetime=\"2011-11-14T18:03:03+00:00\">November 14, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/136142110968655872"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-12-11T22:06:05-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Go ahead and fall in love with the with-statement, but don't forget that sometimes a simple try/finally is a better solution.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/146063243889221632\" data-datetime=\"2011-12-12T03:06:05+00:00\">December 12, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/146063243889221632"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-05-05T19:41:49-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:avoid embarrassment, use pyflakes :-) <a href=\"http://pypi.python.org/pypi/pyflakes\">http://pypi.python.org/pypi/pyflakes</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/66286505445957632\" data-datetime=\"2011-05-05T23:41:49+00:00\">May 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/66286505445957632"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-02-28T18:19:21-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The use of the __del__ magic method is rarely warranted.A context manager or explicit close is much preferred.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/174634825104375808\" data-datetime=\"2012-02-28T23:19:21+00:00\">February 28, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/174634825104375808"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-03-20T15:17:51-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:list subsequence insertion can be done with slices:s=range(0,100,10); s[2:4] = range(20, 40)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/182184195689426944\" data-datetime=\"2012-03-20T19:17:51+00:00\">March 20, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/182184195689426944"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-10-12T23:05:09-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:A new exception encountered in a finally-clause will cause the current exception to be lost.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/256953694287958016\" data-datetime=\"2012-10-13T03:05:09+00:00\">October 13, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/256953694287958016"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-02T14:38:25-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:subprocess.check_output() and subprocess.check_call() are higher level and easier to use than subprocess.Popen().</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/131802356126982144\" data-datetime=\"2011-11-02T18:38:25+00:00\">November 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/131802356126982144"
+    }, 
+    {
+        "author_name": "Brandon Rhodes", 
+        "author_url": "https://twitter.com/brandon_rhodes", 
+        "publication_date": "2012-03-21T15:26:10-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Pro tip\u2014in <a href=\"https://twitter.com/search/%23python\">#python</a> do \"lines = iter(myfile)\" then you can mix-and-match \"next(lines)\" to get a single line with \"for line in lines: \u2026 break\"</p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href=\"https://twitter.com/brandon_rhodes/status/182548676915367936\" data-datetime=\"2012-03-21T19:26:10+00:00\">March 21, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/brandon_rhodes/status/182548676915367936"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-01-18T21:11:40-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:When you write \"x in s\", the interpreter calls s.__contains__(x), but if contains isn't defined, it tries s.__getitem__(i)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/159820289272844288\" data-datetime=\"2012-01-19T02:11:40+00:00\">January 19, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/159820289272844288"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-02-23T18:36:38-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Need robust commercial support for Python?Try the distros from <a href=\"https://twitter.com/search/%23ActiveState\">#ActiveState</a> and <a href=\"https://twitter.com/search/%23Enthought\">#Enthought</a>.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/172827237198999552\" data-datetime=\"2012-02-23T23:36:38+00:00\">February 23, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/172827237198999552"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-06-02T19:25:46-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip: Slices with negative steps are hard to grok. Use reversed() instead.s[j-1:i-1:-1] --&gt; list(reversed(s[i:j]))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/76429329269137408\" data-datetime=\"2011-06-02T23:25:46+00:00\">June 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/76429329269137408"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-06-16T19:26:54-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:gzip is a bit awkward with str/bytes input:content = gzip.GzipFile(fileobj=StringIO.StringIO(content), mode='rb').read()</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/214137003011358722\" data-datetime=\"2012-06-16T23:26:54+00:00\">June 16, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/214137003011358722"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-12-29T20:27:39-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> meta-tip:Support the Python community by donating to the PSF: <a href=\"http://t.co/9HjtdrJB\" title=\"http://www.python.org/psf/donations/\">python.org/psf/donations/</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/152561455030484993\" data-datetime=\"2011-12-30T01:27:39+00:00\">December 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/152561455030484993"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-03-05T18:32:31-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: Composition generally beats inheritance, unless the composition pattern essentially reinvents what inheritance already does ;-)</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/176812464799891456\" data-datetime=\"2012-03-05T23:32:31+00:00\">March 5, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/176812464799891456"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-26T15:09:25-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #7. A list of trove classifiers to categorise your packages <a href=\"http://pypi.python.org/pypi?%3Aaction=list_classifiers\">http://pypi.python.org/pypi?%3Aaction=list_classifiers</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25615965176\" data-datetime=\"2010-09-26T19:09:25+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25615965176"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-05T00:11:02-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:f.is_integer() is the new way to test whether a float is integral.The old way, x==int(x), is history.</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/132671235107729408\" data-datetime=\"2011-11-05T04:11:02+00:00\">November 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/132671235107729408"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-26T14:54:45-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #6 <a href=\"http://pypi.python.org/\">http://pypi.python.org/</a> is the python package index which used to have a funny name - the cheese shop.</p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25614960528\" data-datetime=\"2010-09-26T18:54:45+00:00\">September 26, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25614960528"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-11-05T19:42:59-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:how convert a datetime object to a time object:time.mktime(dt.timetuple()) + dt.microsecond / 1E6</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/132966168930680833\" data-datetime=\"2011-11-05T23:42:59+00:00\">November 5, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/132966168930680833"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-04-30T17:38:10-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro tip:html5lib is *so* much better than BeautifulSoup it's not even funny.<a href=\"http://code.google.com/p/html5lib/\">http://code.google.com/p/html5lib/</a></p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/64443449948110849\" data-datetime=\"2011-04-30T21:38:10+00:00\">April 30, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/64443449948110849"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-09-25T19:23:20-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:The metaclass of a class gets inherited by its subclasses.So subclassers don't need to write:__metaclass__ = MyMeta</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/250737278689873920\" data-datetime=\"2012-09-25T23:23:20+00:00\">September 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/250737278689873920"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-08-26T17:45:04-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:What can lists do that tuples can't:print(sorted(set(dir(list)) - set(dir(tuple))))</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/239840911973031936\" data-datetime=\"2012-08-26T21:45:04+00:00\">August 26, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/239840911973031936"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-02-24T22:31:16-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:To raise multiple exceptions at once, build a combined exception:class MyOverflow(OverflowError, ValueError): pass</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/173248671998160896\" data-datetime=\"2012-02-25T03:31:16+00:00\">February 25, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/173248671998160896"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-10-19T20:03:52-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Linux/Mac users should open binary files in the \"rb\" mode.That will avoid unpleasantness on Windows and on Py3.x</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/126810830456098818\" data-datetime=\"2011-10-20T00:03:52+00:00\">October 20, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/126810830456098818"
+    }, 
+    {
+        "author_name": "David Beazley", 
+        "author_url": "https://twitter.com/dabeaz", 
+        "publication_date": "2011-12-14T06:32:03-05:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p>Seems that my <a href=\"https://twitter.com/search/%23python\">#python</a> generator presentation is generating buzz again.Pro-tip: visit <a href=\"http://t.co/HyPfkL1o\" title=\"http://slideshare.net/dabeaz\">slideshare.net/dabeaz</a> for much more</p>&mdash; David Beazley (@dabeaz) <a href=\"https://twitter.com/dabeaz/status/146915348426391552\" data-datetime=\"2011-12-14T11:32:03+00:00\">December 14, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/dabeaz/status/146915348426391552"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-04-28T21:01:53-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> pro-tip: deque's optional maxlen argument useful for n most recent items, moving averages, sliding windows, tailing files</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/63769939881885696\" data-datetime=\"2011-04-29T01:01:53+00:00\">April 29, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/63769939881885696"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2011-08-02T11:17:33-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip: whenever a slice has negative variable for the right index,such as s[:-i], I suspect a bug for the case where i==0</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/98412124086341632\" data-datetime=\"2011-08-02T15:17:33+00:00\">August 2, 2011</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/98412124086341632"
+    }, 
+    {
+        "author_name": "Rene Dudfield", 
+        "author_url": "https://twitter.com/renedudfield", 
+        "publication_date": "2010-09-29T05:51:26-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> packaging tip #13. pep 345, latest spec for adding metadata to Python distributions. <a href=\"http://www.python.org/dev/peps/pep-0345/\">http://www.python.org/dev/peps/pep-0345/</a></p>&mdash; Rene Dudfield (@renedudfield) <a href=\"https://twitter.com/renedudfield/status/25868900160\" data-datetime=\"2010-09-29T09:51:26+00:00\">September 29, 2010</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/renedudfield/status/25868900160"
+    }, 
+    {
+        "author_name": "raymondh", 
+        "author_url": "https://twitter.com/raymondh", 
+        "publication_date": "2012-10-23T11:33:39-04:00", 
+        "rendered_html": "<blockquote class=\"twitter-tweet\"><p><a href=\"https://twitter.com/search/%23python\">#python</a> tip:Exceptions are temporarily hidden before a finally clause is run. Capture any needed exception info in a preceding except-clause</p>&mdash; raymondh (@raymondh) <a href=\"https://twitter.com/raymondh/status/260765941367992320\" data-datetime=\"2012-10-23T15:33:39+00:00\">October 23, 2012</a></blockquote>\n<script src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>", 
+        "url": "https://twitter.com/raymondh/status/260765941367992320"
     }
 ]

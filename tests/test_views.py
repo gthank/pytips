@@ -13,6 +13,7 @@ import json
 from os import path, environ
 import unittest
 from flask.ext.testing import TestCase
+from dateutil.parser import parse as parse_date
 
 
 # Before we go importing pytips (which configures everything), we need
@@ -28,6 +29,8 @@ class TestViews(TestCase):
         # Load some sample data.
         with open(path.join(path.dirname(__file__), "bootstrap.json")) as fixtures:
             fixtures_json = json.loads(fixtures.read())
+            for tip_dict in fixtures_json:
+                tip_dict['publication_date'] = parse_date(tip_dict['publication_date'])
             fixtures_models = (Tip(**tip) for tip in fixtures_json)
             map(pytips.db.session.add, fixtures_models)
             pytips.db.session.commit()
