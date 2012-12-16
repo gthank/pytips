@@ -7,7 +7,6 @@ from __future__ import division
 
 
 from flask import Markup, render_template
-from sqlalchemy import func
 
 
 from pytips import app
