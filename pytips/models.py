@@ -28,6 +28,7 @@ class Tip(db.Model):
     author_url = db.Column(db.String(1024), nullable=False)
     url = db.Column(db.String(1024), unique=True, nullable=False)
     rendered_html = db.Column(db.String(1024), unique=True, nullable=False)
+    publication_date = db.Column(db.DateTime(timezone=True), nullable=False)
 
     def __repr__(self):
         return '<Tip %r>' % self.url
