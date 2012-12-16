@@ -32,3 +32,7 @@ class Tip(db.Model):
 
     def __repr__(self):
         return '<Tip %r>' % self.url
+
+    def as_dict(self):
+        """Return a simple ``dict`` representation of this model."""
+        return dict((c.name, getattr(self, c.name)) for c in self.__table__.columns)
