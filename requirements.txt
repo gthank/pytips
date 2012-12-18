@@ -1,7 +1,7 @@
 # Basic dev requirements.
 Flask==0.9
 Flask-SQLAlchemy==0.16
-alembic==0.4.0
+alembic==0.4.1
 gunicorn==0.14.6
 # DB
 psycopg2==2.4.5
