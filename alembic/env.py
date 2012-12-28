@@ -62,7 +62,8 @@ def run_migrations_online():
                 prefix='sqlalchemy.',
                 poolclass=pool.NullPool)
 
-    connection = engine.connect()
+    # I need to reuse the connection the ORM is using.
+    connection = models.Tip.query.session.connection()
     context.configure(
                 connection=connection,
                 target_metadata=target_metadata
