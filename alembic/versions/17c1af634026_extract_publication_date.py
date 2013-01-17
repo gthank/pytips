@@ -15,17 +15,12 @@ from dateutil.parser import parse as parse_date
 
 
 import pytips
+from pytips.util import extract_publication_date
 from pytips.models import Tip
 
 
-def _extract_publication_date(html):
-    root = html5lib.parse(html, treebuilder='lxml', namespaceHTMLElements=False)
-    publication_date_string = root.xpath("//a/@data-datetime")[0]
-    return parse_date(publication_date_string)
-
-
 def _update_tip(tip):
-    tip.publication_date = _extract_publication_date(tip.rendered_html)
+    tip.publication_date = extract_publication_date(tip.rendered_html)
 
 
 def _erase_publication_date(tip):
