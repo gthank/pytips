@@ -35,8 +35,6 @@ and [SQLAlchemy][sqlalchemy_home].
 NOTE: This is highly tentative. Any or all of these things may never
 happen, and certainly not in a timely fashion.
 
-* Create a repeatable process for updating the set of Tips using Twitter.
-* Expose said process through a Flask-Script command (or similar).
 * Redesign the site.
 * Package and publish the app to PyPI.
 * Write some decent docs and post them to Read the Docs.
