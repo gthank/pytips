@@ -18,6 +18,11 @@ class TipQuery(BaseQuery):
         """Retrieve a random ``Tip``."""
         return self.order_by(func.random()).first()
 
+    def newest_tip(self):
+        """Retrieve the ``Tip`` with the newest ``publication_date``."""
+        return self.filter(Tip.url.like('%twitter.com%')).order_by(
+            Tip.publication_date).first()
+
 
 class Tip(db.Model):
     """Represents a 'tip' for display."""
