@@ -12,6 +12,7 @@ coverage==3.5.2
 # Easy(ish) config for running on heroku.
 flask-heroku==0.1.3
 # Dependencies for support scripts.
+requests==1.0.4
 html5lib==0.95
 lxml==3.0.1
 python-dateutil==2.1
