@@ -32,7 +32,7 @@ class TestViews(TestCase):
             for tip_dict in fixtures_json:
                 tip_dict['publication_date'] = parse_date(tip_dict['publication_date'])
             fixtures_models = (Tip(**tip) for tip in fixtures_json)
-            map(pytips.db.session.add, fixtures_models)
+            pytips.db.session.add_all(fixtures_models)
             pytips.db.session.commit()
 
     def tearDown(self):

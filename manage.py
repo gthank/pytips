@@ -68,7 +68,7 @@ def importnew():
     """Pull in new Python tips from select sources around the internet."""
     latest_from_twitter = _scrape_twitter_for_latest()
     tips = [_tip_from_tweet(tweet) for tweet in latest_from_twitter]
-    map(pytips.db.session.add, tips)
+    pytips.db.session.add_all(tips)
     pytips.db.session.commit()
 
 
