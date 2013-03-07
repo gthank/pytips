@@ -6,6 +6,10 @@ from __future__ import absolute_import
 from __future__ import division
 
 
+import signal
+
+
+from decorator import decorator
 import html5lib
 from dateutil.parser import parse as parse_date
 
@@ -15,3 +19,41 @@ def extract_publication_date(html):
     root = html5lib.parse(html, treebuilder='lxml', namespaceHTMLElements=False)
     publication_date_string = root.xpath("//a/@data-datetime")[0]
     return parse_date(publication_date_string)
+
+
+# The following block of code was inspired by http://code.activestate.com/recipes/307871-timing-out-function/
+class TimedOutException(Exception):
+    """Raised when a function times out."""
+    def __init__(self, value = "Timed Out"):
+        super(TimedOutException, self).__init__()
+        self.value = value
+
+    def __str__(self):
+        return repr(self.value)
+
+
+def timeout(s):
+    """Prevent a function from running more than ``s`` seconds.
+
+    :param s: the amount of time (in seconds) to let the function attempt to finish
+    """
+    def _timeout(f, *args, **kwargs):
+        def handle_timeout(signal_number, frame):
+            raise TimedOutException
+
+        # Grab a handle to the old alarm.
+        old = signal.signal(signal.SIGALRM, handle_timeout)
+
+        # Start our timeout logic.
+        signal.alarm(s)
+        try:
+            result = f(*args, **kwargs)
+        finally:
+            # Put the old stuff back
+            old = signal.signal(signal.SIGALRM, old)
+
+        # Wipe out all alarms.
+        signal.alarm(0)
+
+        return result
+    return decorator(_timeout)
