@@ -6,6 +6,7 @@ from __future__ import absolute_import
 from __future__ import division
 
 
+import logging
 import signal
 
 
@@ -15,9 +16,23 @@ from dateutil.parser import parse as parse_date
 
 
 def extract_publication_date(html):
-    """Extract publish date from ``html``; assumes it's like an embedded tweet."""
+    """Extract publish date from ``html``; assumes it's like an embedded tweet.
+
+    :param html: a ``string`` containing HTML resembling an embedded tweet
+    :rtype: ``datetime``
+    """
     root = html5lib.parse(html, treebuilder='lxml', namespaceHTMLElements=False)
-    publication_date_string = root.xpath("//a/@data-datetime")[0]
+    publication_date_string = None
+    date_anchor_nodes = root.xpath("//a/@data-datetime")
+    if date_anchor_nodes:
+        publication_date_string = date_anchor_nodes[0]
+    else:
+        date_anchor_nodes = root.xpath("//a")
+        if date_anchor_nodes:
+            publication_date_string = date_anchor_nodes[-1].text
+    if not publication_date_string:
+        logging.warn("We were unable to extract a publication date from:\n%s", html)
+        return None
     return parse_date(publication_date_string)
 
 
