@@ -13,7 +13,7 @@ from flask.ext.script import Manager
 
 import pytips
 from pytips.models import Tip
-from pytips.util import extract_publication_date
+from pytips.util import extract_publication_date, timeout
 from pytips import app
 
 
@@ -64,6 +64,7 @@ def _tip_from_tweet(embedded):
 
 
 @manager.command
+@timeout(30)
 def importnew():
     """Pull in new Python tips from select sources around the internet."""
     latest_from_twitter = _scrape_twitter_for_latest()
