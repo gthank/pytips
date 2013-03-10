@@ -1,7 +1,6 @@
 # Basic dev requirements.
 Flask==0.9
 Flask-SQLAlchemy==0.16
-Flask-Script==0.5.1
 alembic==0.4.1
 gunicorn==0.14.6
 # DB
@@ -13,8 +12,10 @@ coverage==3.5.2
 # Easy(ish) config for running on heroku.
 flask-heroku==0.1.3
 # Dependencies for support scripts.
+Flask-Script==0.5.1
 twitter==1.9.0
 requests==1.0.4
 html5lib==0.95
 lxml==3.0.1
 python-dateutil==2.1
+decorator==3.4.0
