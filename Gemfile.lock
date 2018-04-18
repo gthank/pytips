@@ -4,25 +4,33 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     excon (0.62.0)
-    heroku (2.41.0)
-      heroku-api (~> 0.3.7)
-      launchy (>= 0.3.2)
-      netrc (~> 0.7.7)
-      rest-client (~> 1.6.1)
-      rubyzip
-    heroku-api (0.3.23)
-      excon (~> 0.44)
+    heroku (3.99.1)
+      heroku-api (= 0.4.2)
+      launchy (= 2.4.3)
+      multi_json (= 1.11.2)
+      net-ssh (= 2.9.2)
+      net-ssh-gateway (= 1.2.0)
+      netrc (= 0.10.3)
+      rest-client (= 1.6.8)
+      rubyzip (= 1.1.7)
+    heroku-api (0.4.2)
+      excon (~> 0.45)
       multi_json (~> 1.8)
     json (2.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     mime-types (1.25.1)
-    multi_json (1.13.1)
-    netrc (0.7.9)
+    multi_json (1.11.2)
+    net-ssh (2.9.2)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    netrc (0.10.3)
     public_suffix (3.0.2)
-    rest-client (1.6.9)
+    rdoc (6.0.3)
+    rest-client (1.6.8)
       mime-types (~> 1.16)
-    rubyzip (1.2.1)
+      rdoc (>= 2.4.2)
+    rubyzip (1.1.7)
     travis-lint (2.0.0)
       json
 
@@ -30,7 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  heroku (~> 2.30)
+  heroku
   travis-lint
 
 BUNDLED WITH
