@@ -1,26 +1,30 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.3.2)
-    excon (0.15.5)
-    hashr (0.0.21)
-    heroku (2.30.2)
-      heroku-api (~> 0.3.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    excon (0.62.0)
+    heroku (2.41.0)
+      heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
-      netrc (~> 0.7.5)
+      netrc (~> 0.7.7)
       rest-client (~> 1.6.1)
       rubyzip
-    heroku-api (0.3.2)
-      excon (~> 0.15.5)
-    launchy (2.1.1)
+    heroku-api (0.3.23)
+      excon (~> 0.44)
+      multi_json (~> 1.8)
+    json (2.1.0)
+    launchy (2.4.3)
       addressable (~> 2.3)
-    mime-types (1.19)
-    netrc (0.7.5)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
-    rubyzip (0.9.9)
-    travis-lint (1.4.0)
-      hashr (>= 0.0.19)
+    mime-types (1.25.1)
+    multi_json (1.13.1)
+    netrc (0.7.9)
+    public_suffix (3.0.2)
+    rest-client (1.6.9)
+      mime-types (~> 1.16)
+    rubyzip (1.2.1)
+    travis-lint (2.0.0)
+      json
 
 PLATFORMS
   ruby
@@ -28,3 +32,6 @@ PLATFORMS
 DEPENDENCIES
   heroku (~> 2.30)
   travis-lint
+
+BUNDLED WITH
+   1.16.1
