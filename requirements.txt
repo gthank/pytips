@@ -2,7 +2,7 @@
 Flask==0.9
 Flask-SQLAlchemy==0.16
 alembic==0.4.1
-gunicorn==0.14.6
+gunicorn==19.9.0
 # DB
 psycopg2==2.4.5
 # Testing requirements.
